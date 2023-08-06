@@ -1,6 +1,6 @@
 import React from "react";
 import expBlack from "../../assets/svg/expBlack.svg";
-import { experienceData } from "../../data";
+import { EXPERIENCE_DATA } from "../../data";
 import ExperienceCard from "../ExperienceCard";
 
 const Experience = () => {
@@ -18,7 +18,7 @@ const Experience = () => {
           <h2 className="text-primary font-bold text-[2.5rem] sm-[3.2rem] tab:text-[3.5rem] text-center mb-8 max-tab:self-center">
             Experience
           </h2>
-          {experienceData.map((exp) => (
+          {EXPERIENCE_DATA.map((exp) => (
             <ExperienceCard
               key={exp.id}
               id={exp.id}

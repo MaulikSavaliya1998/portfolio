@@ -34,14 +34,14 @@ function App() {
       <Element name="About" className="About">
         <About />
       </Element>
-      <Element name="Education" className="Education">
-        <Education />
-      </Element>
       <Element name="Skills" className="Skills">
         <Skills />
       </Element>
       <Experience />
       <Projects />
+      <Element name="Education" className="Education">
+        <Education />
+      </Element>
       <Element name="Contact" className="Contact">
         <Contacts />
       </Element>

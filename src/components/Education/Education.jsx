@@ -1,5 +1,5 @@
 import React from "react";
-import { educationData } from "../../data";
+import { EDUCATION_DATA } from "../../data";
 import ExperienceCard from "../ExperienceCard";
 import eduBlack from "../../assets/svg/eduBlack.svg";
 import Section from "../Section";
@@ -13,7 +13,7 @@ const Education = () => {
           <h2 className="text-[2.5rem] max-tab:self-center sm-[3.2rem] tab:text-[3.5rem] text-primary mb-8 font-bold">
             Education
           </h2>
-          {educationData.map((edu) => (
+          {EDUCATION_DATA.map((edu) => (
             <ExperienceCard
               key={edu.id}
               id={edu.id}

@@ -1,5 +1,5 @@
 import React from "react";
-import { contactsData, socialsData } from "../../data";
+import { CONTACT_DATA, SOCIALS_DATA } from "../../data";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import contactsimg from "../../assets/svg/contactsBlack.svg";
 
@@ -28,7 +28,7 @@ const Contacts = () => {
           Contacts
         </h2>
         <div className="flex flex-wrap w-full justify-evenly mt-5">
-          {contactsData.map((contact) => (
+          {CONTACT_DATA.map((contact) => (
             <a
               className="flex items-center w-full mb-5 md:mb-10"
               href={contactLink(contact)}
@@ -46,7 +46,7 @@ const Contacts = () => {
         </div>
         <div className="w-full">
           <div className="flex flex-wrap max-md:justify-center gap-6 md:gap-x-4 justify-center items-center w-full my-6">
-            {socialsData.map((item) => (
+            {SOCIALS_DATA.map((item) => (
               <a
                 href={item.url}
                 target="_blank"

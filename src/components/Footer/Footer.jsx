@@ -1,4 +1,5 @@
 import React from "react";
+import { HEADER_DATA } from "../../data";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <p className="text-tertiary font-medium text-lg">
         Made with
         <span className="text-primary mr-2 -mb-4 ml-2 text-2xl">❤</span>
-        by Tushar Donga
+        by {HEADER_DATA.name}
       </p>
     </div>
   );

@@ -3,7 +3,7 @@ import { MdClose } from "react-icons/md";
 import { Fade } from "react-reveal";
 import { Element, Link } from "react-scroll";
 import { GlobalContext } from "../../context/GlobalContext";
-import { sideBarData } from "../../data";
+import { SIDEBAR_DATA } from "../../data";
 
 const SideBar = () => {
   const { drawerOpen, setHandleDrawer } = useContext(GlobalContext);
@@ -31,7 +31,7 @@ const SideBar = () => {
       </div>
       <div>
         <div className="mt-24 tab:mt-28">
-          {sideBarData.map((item) => (
+          {SIDEBAR_DATA.map((item) => (
             <Link
               activeClass="active"
               to={item.label}

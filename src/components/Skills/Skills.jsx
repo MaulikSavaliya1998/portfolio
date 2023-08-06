@@ -1,7 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { skillsImage } from "../../assets/svg/skills";
-import { skillsData } from "../../data";
+import { SKILLS_DATA } from "../../data";
 
 const Skills = () => {
   return (
@@ -22,18 +21,18 @@ const Skills = () => {
             play={true}
             direction="left"
           >
-            {skillsData.map((skill, id) => (
+            {SKILLS_DATA.map((skill, id) => (
               <div
                 style={{ boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.12)" }}
                 className="bg-secondary rounded-[10px] w-[135px] sm:w-[150px] tab:w-40 h-[135px] sm:h-[150px] tab:h-40 m-5 tab:m-6 flex flex-col items-center justify-center py-8 px-4 duration-300 ease-in-out shadow-lg shadow-primary30 hover:scale-110"
               >
                 <img
                   className="h-10 sm:h-11 tab:h-[50px] pointer-events-none select-none"
-                  src={skillsImage(skill)}
-                  alt={skill}
+                  src={skill.image}
+                  alt={skill.title}
                 />
                 <h3 className="text-tertiary font-bigShoulders font-medium text-lg sm:text-xl tab:text-[22px] text-center mt-4">
-                  {skill}
+                  {skill.title}
                 </h3>
               </div>
             ))}
