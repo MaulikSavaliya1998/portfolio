@@ -158,10 +158,10 @@ export const PROJECTS_DATA = [
     description:
       "Discover your ideal getaway through our Airbnb-inspired property listings. Browse diverse accommodations, from cozy homes to stunning apartments. Find your perfect stay and create memorable experiences with us.",
     tags: ["NextJS 13", "Prisma"],
-    code: "https://github.com/MaulikSavaliya1998",
-    demo: "https://github.com/tushardonga/Demo_eCommerce",
+    code: "https://github.com/jigarviroja/nextjs-airbnb",
+    demo: "https://clickaway-git-master-jigarviroja.vercel.app",
     image:
-      "https://drive.google.com/uc?export=view&id=1WZq5XxT1qT1DBCa26Zh_zk0pdRIukkzg",
+      "https://drive.google.com/file/d/1hqlqhJ4Rs94Huul2m9yMW4HHzHUVBDqB/view?usp=sharing",
   },
   {
     id: 3,
