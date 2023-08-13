@@ -44,7 +44,7 @@ import prisma from "./assets/svg/skills/prisma.png";
 import ShopperLanding from "./assets/svg/shopper.png";
 
 export const HEADER_DATA = {
-  name: "Jigar Viroja",
+  name: "Maulik Viroja",
   title: "Software Engineer",
   image: profile,
   resumePdf: resume,
