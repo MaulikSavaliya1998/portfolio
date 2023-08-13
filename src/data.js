@@ -123,7 +123,7 @@ export const EXPERIENCE_DATA = [
   },
   {
     id: 3,
-    company: "3Embed Software Technolgies Pvt. ltd.",
+    company: "3Embed Software Technolgies Pvt. Ltd.",
     jobtitle: "Frontend Engineer",
     startYear: "2020",
     endYear: "2022",
