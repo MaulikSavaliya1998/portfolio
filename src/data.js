@@ -210,7 +210,7 @@ export const PROJECTS_DATA = [
     name: "Chrome Extension",
     description:
       "I developed a browser extension enabling users to create collections across tabs for easy one-click access. Currently, I'm working on another extension to allow users to seamlessly extract data and send connection requests from any LinkedIn profile.",
-    tags: ["React", "MUI"],
+    tags: ["ReactJS", "MUI"],
     code: "https://github.com/MaulikSavaliya1998/chrome-extension",
     demo: "https://github.com/tushardonga/Demo_eCommerce",
     image:
