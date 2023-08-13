@@ -22,7 +22,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image }) => {
             {name}
           </h2>
           <img
-            className="w-full h-3/5 select-none rounded-lg cursor-pointer"
+            className="w-full h-3/5 select-none object-cover rounded-lg cursor-pointer"
             src={image ? image : placeholder}
             alt={name}
             onClick={() => navigate("/project/" + id)}
