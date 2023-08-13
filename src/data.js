@@ -36,6 +36,10 @@ import profile from "./assets/svg/profile.jpg";
 import img1 from "./assets/svg/1.png";
 import img2 from "./assets/svg/2.png";
 import img3 from "./assets/svg/3.png";
+import Clikaways from "./assets/svg/clickaway.png";
+import ClikawaysLogin from "./assets/svg/clickaway-login.png";
+import PropertyDetail from "./assets/svg/property-detail.png";
+import ClickawayMobile from "./assets/svg/clickaway-mobile.png";
 
 export const HEADER_DATA = {
   name: "Jigar Viroja",
@@ -53,7 +57,7 @@ export const ABOUT_DATA = {
   description2:
     "As a seasoned MERN Stack developer with over 2.8 years of experience, I excel in creating responsive layouts and writing high-quality, efficient code. My expertise also includes TypeScript, and I am well-versed in effectively communicating with clients to meet their specific requirements. With a Bachelor of Engineering in Computer Engineering, I am passionate about crafting seamless web solutions and always eager to take on new challenges. Let's connect and explore how I can contribute to your projects and bring them to new heights!",
   image: 2,
-  address: "Thaltej, Ahmedabad, Gujarat, India - 380052"
+  address: "Thaltej, Ahmedabad, Gujarat, India - 380052",
 };
 
 export const EDUCATION_DATA = [
@@ -179,8 +183,10 @@ export const PROJECTS_DATA = [
     tags: ["NextJS 13", "Prisma"],
     code: "https://github.com/jigarviroja/nextjs-airbnb",
     demo: "https://clickaway-git-master-jigarviroja.vercel.app",
-    image:
-      "https://drive.google.com/file/d/1hqlqhJ4Rs94Huul2m9yMW4HHzHUVBDqB/view?usp=sharing",
+    img1: Clikaways,
+    img2: ClikawaysLogin,
+    img3: PropertyDetail,
+    img4: ClickawayMobile,
   },
   {
     id: 3,
