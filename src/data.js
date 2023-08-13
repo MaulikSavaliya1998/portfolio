@@ -38,7 +38,7 @@ import img2 from "./assets/svg/2.png";
 import img3 from "./assets/svg/3.png";
 
 export const HEADER_DATA = {
-  name: "Maulik Savaliya",
+  name: "Maulik Viroja",
   title: "Software Engineer",
   image: profile,
   resumePdf: resume,
