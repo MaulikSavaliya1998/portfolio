@@ -1,5 +1,5 @@
 import React from "react";
-import { CONTACT_DATA, SOCIALS_DATA } from "../../data";
+import { ABOUT_DATA, CONTACT_DATA, SOCIALS_DATA } from "../../data";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import contactsimg from "../../assets/svg/contactsBlack.svg";
 
@@ -41,7 +41,7 @@ const Contacts = () => {
             <div className={detailsIconCss}>
               <HiOutlineLocationMarker />
             </div>
-            {contactDetails("Chankyapuri, Ahmedabad, Gujarat, India - 380061")}
+            {contactDetails(ABOUT_DATA.address)}
           </div>
         </div>
         <div className="w-full">
