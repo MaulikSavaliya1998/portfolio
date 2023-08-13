@@ -40,6 +40,7 @@ import Clikaways from "./assets/svg/clickaway.png";
 import ClikawaysLogin from "./assets/svg/clickaway-login.png";
 import PropertyDetail from "./assets/svg/property-detail.png";
 import ClickawayMobile from "./assets/svg/clickaway-mobile.png";
+import prisma from "./assets/svg/skills/prisma.png";
 
 export const HEADER_DATA = {
   name: "Jigar Viroja",
@@ -123,6 +124,7 @@ export const PROJECT_TECHS = {
   NodeJS: aws,
   Git: git,
   GitHub: github,
+  Prisma: prisma,
 };
 
 export const EXPERIENCE_DATA = [
@@ -180,7 +182,7 @@ export const PROJECTS_DATA = [
     name: "Airbnb-Clone",
     description:
       "Discover your ideal getaway through our Airbnb-inspired property listings. Browse diverse accommodations, from cozy homes to stunning apartments. Find your perfect stay and create memorable experiences with us.",
-    tags: ["NextJS 13", "Prisma"],
+    tags: ["NextJS", "Prisma"],
     code: "https://github.com/jigarviroja/nextjs-airbnb",
     demo: "https://clickaway-git-master-jigarviroja.vercel.app",
     img1: Clikaways,
