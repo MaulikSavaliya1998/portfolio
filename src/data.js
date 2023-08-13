@@ -41,6 +41,7 @@ import ClikawaysLogin from "./assets/svg/clickaway-login.png";
 import PropertyDetail from "./assets/svg/property-detail.png";
 import ClickawayMobile from "./assets/svg/clickaway-mobile.png";
 import prisma from "./assets/svg/skills/prisma.png";
+import ShopperLanding from "./assets/svg/shopper.png";
 
 export const HEADER_DATA = {
   name: "Jigar Viroja",
@@ -168,10 +169,7 @@ export const PROJECTS_DATA = [
       "Git",
       "GitHub",
     ],
-    img1: img1,
-    img2: img3,
-    img3: img2,
-    img4: "https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg",
+    img1: ShopperLanding,
     code: "https://github.com/MaulikSavaliya1998",
     demo: "https://csb-hv57x7-2uo4cfiqn-mauliksavaliya1998.vercel.app/",
     image:
