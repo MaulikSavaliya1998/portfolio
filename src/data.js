@@ -44,7 +44,7 @@ import prisma from "./assets/svg/skills/prisma.png";
 import ShopperLanding from "./assets/svg/shopper.png";
 
 export const HEADER_DATA = {
-  name: "Maulik Savaliya",
+  name: "Jigar Viroja",
   title: "Software Engineer",
   image: profile,
   resumePdf: resume,
@@ -55,10 +55,11 @@ export const HEADER_DATA = {
 export const ABOUT_DATA = {
   title: "Who I am",
   description1:
-    "My name's Maulik. I'm a Software Engineer based in Ahmedabad, India.",
+    "My name's jigar. I'm a Software Engineer based in Ahmedabad, India.",
   description2:
-    "I am a MERN Stack Developer with over 2 years of experience. My expertise lies in building web applications using MongoDB, Express.js, React, and Node.js. I am also skilled in creating browser extensions using JavaScript, HTML, CSS and React. With a strong eye for detail and a passion for innovation, I enjoy tackling complex challenges and delivering high-quality solutions. I am always eager to learn and stay up-to-date with the latest technologies. My goal is to contribute my skills and experience to create impactful and user-friendly applications that make a positive difference.",
+    "As a seasoned MERN Stack developer with over 2.8 years of experience, I excel in creating responsive layouts and writing high-quality, efficient code. My expertise also includes TypeScript, and I am well-versed in effectively communicating with clients to meet their specific requirements. With a Bachelor of Engineering in Computer Engineering, I am passionate about crafting seamless web solutions and always eager to take on new challenges. Let's connect and explore how I can contribute to your projects and bring them to new heights!",
   image: 2,
+  address: "Thaltej, Ahmedabad, Gujarat, India - 380052",
 };
 
 export const EDUCATION_DATA = [
@@ -71,7 +72,7 @@ export const EDUCATION_DATA = [
   },
   {
     id: 2,
-    institution: "Alpha Vidhya Sankul Junagadh",
+    institution: "Ramkabir Higher Secondary School, Surat",
     course: "Higher Secondary Education",
     startYear: "2014",
     endYear: "2016",
@@ -124,29 +125,30 @@ export const PROJECT_TECHS = {
   NodeJS: aws,
   Git: git,
   GitHub: github,
+  Prisma: prisma,
 };
 
 export const EXPERIENCE_DATA = [
   {
     id: 1,
-    company: "7Span",
+    company: "Bacancy Technology",
     jobtitle: "Software Engineer",
     startYear: "2023",
     endYear: "Present",
   },
   {
     id: 2,
-    company: "GTCSYS",
+    company: "CREST Infosystems Pvt. Ltd.",
     jobtitle: "Full Stack Developer",
-    startYear: "2021",
+    startYear: "2022",
     endYear: "2023",
   },
   {
     id: 3,
-    company: "Sarjan Systems",
-    jobtitle: "Internship Trainee",
+    company: "3Embed Software Technolgies Pvt. Ltd.",
+    jobtitle: "Frontend Engineer",
     startYear: "2020",
-    endYear: "2020",
+    endYear: "2022",
   },
 ];
 
@@ -179,10 +181,12 @@ export const PROJECTS_DATA = [
     description:
       "Discover your ideal getaway through our Airbnb-inspired property listings. Browse diverse accommodations, from cozy homes to stunning apartments. Find your perfect stay and create memorable experiences with us.",
     tags: ["NextJS", "Prisma"],
-    code: "https://github.com/MaulikSavaliya1998",
-    demo: "https://clickaway-lm0p0zuon-jigarviroja.vercel.app",
-    image:
-      "https://drive.google.com/uc?export=view&id=1WZq5XxT1qT1DBCa26Zh_zk0pdRIukkzg",
+    code: "https://github.com/jigarviroja/nextjs-airbnb",
+    demo: "https://clickaway-git-master-jigarviroja.vercel.app",
+    img1: Clikaways,
+    img2: ClikawaysLogin,
+    img3: PropertyDetail,
+    img4: ClickawayMobile,
   },
   {
     id: 3,
@@ -215,34 +219,34 @@ export const PROJECTS_DATA = [
 export const CONTACT_DATA = [
   {
     label: "email",
-    value: "mauliksavaliya.work@gmail.com",
+    value: "jigarviroja.business@gmail.com",
     icon: <FiAtSign />,
   },
-  { label: "phone", value: "+916355105023", icon: <FiPhone /> },
+  { label: "phone", value: "+919714493203", icon: <FiPhone /> },
 ];
 
 const iconClass = "text-3xl tab:text-4xl mx-4 animate-bounce text-secondary";
 export const SOCIALS_DATA = [
   {
     label: "GitHub",
-    url: "https://github.com/MaulikSavaliya1998",
+    url: "https://github.com/jigarviroja",
     icon: <FaGithub aria-label="GitHub" className={iconClass} />,
   },
   {
     label: "LinkedIn",
-    url: "https://www.linkedin.com/in/maulik-savaliya-1603521a1/",
+    url: "https://www.linkedin.com/in/jigar-viroja-a80405185/",
     icon: <FaLinkedinIn aria-label="LinkedIn" className={iconClass} />,
   },
   {
     label: "Twitter",
-    url: "https://twitter.com/_Maulik_1998",
+    url: "https://twitter.com/viroja_jig7740",
     icon: <FaTwitter aria-label="Twitter" className={iconClass} />,
   },
-  {
-    label: "Hacker Renk",
-    url: "https://www.hackerrank.com/savaliyamaulik98",
-    icon: <FaHackerrank aria-label="Hacker Renk" className={iconClass} />,
-  },
+  // {
+  //   label: "Hacker Renk",
+  //   url: "https://www.hackerrank.com/savaliyamaulik98",
+  //   icon: <FaHackerrank aria-label="Hacker Renk" className={iconClass} />,
+  // },
 
   // {
   //   label: "Stack Overflow",
