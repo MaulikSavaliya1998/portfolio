@@ -23,7 +23,7 @@ const Projects = () => {
                   tags={project.tags}
                   code={project.code}
                   demo={project.demo}
-                  image={project.image}
+                  image={project.img1}
                 />
               ))}
             </div>
