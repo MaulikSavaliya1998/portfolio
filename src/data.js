@@ -33,6 +33,9 @@ import { HiDocumentText } from "react-icons/hi";
 import { MdPhone } from "react-icons/md";
 import resume from "./assets/pdf/Resume.pdf";
 import profile from "./assets/svg/profile.jpg";
+import img1 from "./assets/svg/1.png";
+import img2 from "./assets/svg/2.png";
+import img3 from "./assets/svg/3.png";
 
 export const HEADER_DATA = {
   name: "Jigar Viroja",
@@ -98,10 +101,22 @@ export const PROJECT_TECHS = {
   HTML: html,
   CSS: css,
   "Tailwind CSS": tailwind,
+  JavaScript: javascript,
+  TypeScript: typescript,
+  Bootstrap: bootstrap,
+  MUI: mui,
   ReactJS: react,
   Redux: redux,
-  NodeJS: aws,
+  NextJS: next,
+  "Prime React": prime,
+  "Data Structure": dataStructure,
+  Algorithms: algorithm,
+  "Ant Design": antD,
+  Firebase: firebase,
+  AWS: aws,
   MongoDB: mongodb,
+  SQL: sql,
+  NodeJS: aws,
   Git: git,
   GitHub: github,
 };
@@ -147,8 +162,12 @@ export const PROJECTS_DATA = [
       "Git",
       "GitHub",
     ],
+    img1: img1,
+    img2: img3,
+    img3: img2,
+    img4: "https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg",
     code: "https://github.com/MaulikSavaliya1998",
-    demo: "https://github.com/tushardonga/pro-todo",
+    demo: "https://csb-hv57x7-2uo4cfiqn-mauliksavaliya1998.vercel.app/",
     image:
       "https://drive.google.com/uc?export=view&id=1SHtwtyaj2oe1TDvrmgMzvz-oRgfBIzHj",
   },
@@ -168,11 +187,15 @@ export const PROJECTS_DATA = [
     name: "GitHub Analysis",
     description:
       "Check out my GitHub analysis project! It lists recent repo creators in 7 days. Clicking on a person shows commits, additions, deletions, and contributions in a user-friendly graph. Explore GitHub activity like never before!.",
-    tags: ["React", "MUI"],
-    code: "https://codesandbox.io/s/github-analysis-hv57x7",
-    demo: "https://github.com/tushardonga/Demo_eCommerce",
+    tags: ["HTML", "CSS", "ReactJS", "Redux", "MUI"],
+    img1: img1,
+    img2: img3,
+    img3: img2,
+    img4: "https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg",
+    code: "https://codesandbox.io/s/github-analysis-hv57x7?file=/src/App.js",
+    demo: "https://csb-hv57x7-2uo4cfiqn-mauliksavaliya1998.vercel.app/",
     image:
-      "https://drive.google.com/uc?export=view&id=1WZq5XxT1qT1DBCa26Zh_zk0pdRIukkzg",
+      "https://drive.google.com/uc?export=view&id=1SHtwtyaj2oe1TDvrmgMzvz-oRgfBIzHj",
   },
   {
     id: 4,
@@ -180,7 +203,7 @@ export const PROJECTS_DATA = [
     description:
       "I developed a browser extension enabling users to create collections across tabs for easy one-click access. Currently, I'm working on another extension to allow users to seamlessly extract data and send connection requests from any LinkedIn profile.",
     tags: ["React", "MUI"],
-    code: "https://github.com/MaulikSavaliya1998",
+    code: "https://github.com/MaulikSavaliya1998/chrome-extension",
     demo: "https://github.com/tushardonga/Demo_eCommerce",
     image:
       "https://drive.google.com/uc?export=view&id=1WZq5XxT1qT1DBCa26Zh_zk0pdRIukkzg",
